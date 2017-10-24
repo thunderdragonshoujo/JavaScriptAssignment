@@ -1,6 +1,6 @@
 const _ = require("lodash")
 console.log(
-    numberArry =_.range(0, 100).map(function(val, index) {
+    numberArry =_.range(0, 100).map(function(CurrentVale, index) {
       index++;
       if (index % 15 == 0){return "FizzBuzz";}
       if (index % 3 == 0){return "Fizz";}
