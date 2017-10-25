@@ -1,10 +1,10 @@
 const _ = require("lodash")
 console.log(
-    numberArry =_.filter(_.range(0, 100).map(function(index) {
+    (_.range(0, 100).map(function(indexValue) {
       
-      if (index % 15 == 0){return index +  " FizzBuzz";}
-      if (index % 3 == 0){return index + " Fizz";}
-      if (index % 5 == 0){return index + " Buzz";}
-      return null ;
-    }),null)
-  );
+      if (indexValue % 15 == 0){return " FizzBuzz";}
+      if (indexValue % 3 == 0){return " Fizz";}
+      if (indexValue % 5 == 0){return " Buzz";}
+      return indexValue ;
+    }
+  )));
